@@ -1,0 +1,401 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+@import "fonts";
+@import "cheatsheet-page-styles";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  direction: rtl;
+  font-size: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  background: $white;
+  font: 19px/1.4 $base-font-family;
+  line-height: 1.6;
+  color: $darkGray;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $darkerGray;
+  font-weight: bold;
+
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+
+  @include mobile {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 30px;
+  a {
+    color: inherit;
+  }
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+  color: $gray;
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover, &:active {
+    color: $blue;
+  }
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-right: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: arabic-indic;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 1em auto;
+}
+
+blockquote {
+  margin: 1.8em .8em;
+  border-right: 2px solid $gray;
+  padding: 0.1em 1em;
+  color: $gray;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+//
+// .masthead
+//
+
+.wrapper-masthead {
+  margin-bottom: 50px;
+}
+
+.masthead {
+  padding: 20px 0;
+  border-bottom: 1px solid DarkOrange ;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.site-avatar {
+  float: right;
+  width: 70px;
+  height: 70px;
+  margin-left: 15px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 0px;
+  }
+}
+
+.site-info {
+  float: right;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin: 0;
+  color: $darkGray;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: $gray;
+  font-size: 16px;
+
+  @include mobile {
+    margin: 3px 0;
+  }
+}
+
+// .vertical-menu {
+//   width: 200px; /* Set a width if you like */
+// }
+// 
+// .vertical-menu a {
+//   background-color: #eee; /* Grey background color */
+//   color: black; /* Black text color */
+//   display: block; /* Make the links appear below each other */
+//   padding: 12px; /* Add some padding */
+//   text-decoration: none; /* Remove underline from links */
+// }
+
+// .vertical-menu a:hover {
+//   background-color: #ccc; /* Dark grey background on mouse-over */
+// }
+// 
+// .vertical-menu a.active {
+//   background-color: #04AA6D; /* Add a green color to the "active/current" link */
+//   color: white;
+// } 
+
+/* Fixed sidenav, full height */
+// .sidenav {
+//   height: 100%;
+//   width: 200px;
+//   position: fixed;
+//   z-index: 1;
+//   top: 0;
+//   left: 0;
+//   background-color: #111;
+//   overflow-x: hidden;
+//   padding-top: 20px;
+// }
+// 
+// /* Style the sidenav links and the dropdown button */
+// .sidenav a, .dropdown-btn {
+//   padding: 6px 8px 6px 16px;
+//   text-decoration: none;
+//   font-size: 20px;
+//   color: #818181;
+//   display: block;
+//   border: none;
+//   background: none;
+//   width:100%;
+//   text-align: left;
+//   cursor: pointer;
+//   outline: none;
+// }
+// 
+// /* On mouse-over */
+// .sidenav a:hover, .dropdown-btn:hover {
+//   color: #f1f1f1;
+// }
+// 
+// /* Main content */
+// .main {
+//   margin-left: 200px; /* Same as the width of the sidenav */
+//   font-size: 20px; /* Increased text to enable scrolling */
+//   padding: 0px 10px;
+// }
+// 
+// /* Add an active class to the active dropdown button */
+// .active {
+//   background-color: green;
+//   color: white;
+// }
+// 
+// /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+// .dropdown-container {
+//   display: none;
+//   background-color: #262626;
+//   padding-left: 8px;
+// }
+
+nav {
+  float: left;
+  margin-top: 23px; // @TODO: Vertically middle align
+  font-size: 18px;
+
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+
+  a {
+    margin-right: 20px;
+    color: $darkGray;
+    text-align: left;
+    font-weight: normal;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $blue;
+    }
+  }
+}
+
+
+.not-found {
+  img { width: 400px; }
+}
+
+//
+// .main
+//
+
+#main {
+  flex: 1;
+}
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    font-size: 15px;
+  }
+}
+
+.footnotes {
+  border-top: 1px solid;
+}
+
+.footnote {
+  font-size: 70%;
+  vertical-align: top;
+}
+
+.reversefootnote {
+  display: inline-block;
+  vertical-align: sub;
+  transform: rotateY(180deg);
+}
+
+.date {
+  margin-top: 2em;
+  text-align: left;
+  color: $gray;
+}
+
+.wrapper-footer {
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightGray;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+//
+// FOUT fonts
+//
+
+.naskh-font-loaded {
+  body { font-family: $body-font-family; }
+}
+
+.kufi-font-loaded {
+  h1, h2, h3, h4, h5, h6 { font-family: $heading-font-family; }
+  .site-name             { font-family: $heading-font-family; }
+  nav                    { font-family: $heading-font-family; }
+  .read-more             { font-family: $heading-font-family; }
+  .date                  { font-family: $heading-font-family; }
+}
+
+.kawkab-font-loaded {
+  code { font-family: $code-font-family; }
+}
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "svg-icons";
