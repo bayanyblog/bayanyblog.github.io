@@ -2,19 +2,16 @@
 layout: default
 ---
 
-<div class="posts" >
-  {% for post in site.posts %}{{ post.img }}
+<div class="posts">
+  {% for post in site.posts %}
     <article class="post">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div class="entry">
+        {{ post.img }}
+      </div>
       <div class="entry">
         {{ post.description }}
       </div>
     </article>
   {% endfor %}
 </div>
-<!--
-<div>
-  <img src="images/ConfigIcon.png" style="display: inline-block" />
-  <h1 style="display: inline-block">System Configuration</h1>
-</div>
--->
