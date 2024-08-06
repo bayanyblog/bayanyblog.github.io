@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts" style="display: inline-block">
   {% for post in site.posts %}{{ post.img }}
-    <article class="post" style="display: inline-block">
+    <article class="post">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       <div class="entry">
         {{ post.description }}
