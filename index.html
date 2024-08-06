@@ -3,20 +3,15 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-      <div>
-        {{ post.img }}
-        <h1 style="display: inline-block"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-        </div>
-        <div class="entry">
-          {{ post.description }}
-        </div>
+  {% for post in site.posts %}{{ post.img }}
+    <article class="post" style="display: inline-block">
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div class="entry">
+        {{ post.description }}
       </div>
     </article>
   {% endfor %}
 </div>
-
 <!--
 <div>
   <img src="images/ConfigIcon.png" style="display: inline-block" />
