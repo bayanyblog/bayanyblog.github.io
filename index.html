@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts reversed %}
-  <div class="entry" style="float: right ; padding-left : 10px ; padding-bottom : 10px" > {{ post.img }}
+  <div class="entry" style="padding-left : 10px ; float: right" > {{ post.img }}
   </div>
     <article class="post">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
