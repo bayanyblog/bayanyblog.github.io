@@ -4,11 +4,12 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-  {{ post.img }}
-    <article class="post" style='float: left'>
+  
+    <article class="post">
       <h1 ><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       <div class="entry">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.description }}
+        <a href="{{ site.baseurl }}{{ post.url }}" style='float: left'>{{ post.description }}
+        {{ post.img }}
       </div>
     </article>
   {% endfor %}
