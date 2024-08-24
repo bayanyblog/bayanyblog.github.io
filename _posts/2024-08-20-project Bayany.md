@@ -5,8 +5,7 @@ description: رحبًا بكم في **بياني**، مشروع يهدف إلى 
 img: <img src="https://raw.githubusercontent.com/yOOs-dz/bayanyblog/main/images/logo_Rtips.png" width='100' height= auto/>
 ---
 
-![بياني](https://raw.githubusercontent.com/yOOs-dz/Rtips/main/images/banner_v1.jpg/ "مشروع بياني")
-![بياني]({{ site.baseurl }}/images/banner_v1.jpg مشروع بياني")
+![بياني]({{ site.baseurl }}/images/banner_v1.jpg "مشروع بياني")
 
 
 مرحبًا بكم في **بياني**، مشروع يهدف إلى توثيق وتعريف البرامج المعلوماتية الحرة والمفتوحة المصدر التي تختص بتحليل المعطيات. يهدف هذا الموقع إلى توفير منصة شاملة تجمع بين المعلومات الأساسية، والدروس التوضيحية، والتطبيقات العملية، والفهارس المتخصصة في مجال تحليل البيانات.
