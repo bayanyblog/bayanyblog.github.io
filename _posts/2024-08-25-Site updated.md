@@ -3,9 +3,8 @@ layout: post
 title: تحديث عنوان موقع مشروع بياني
 date: 2024-08-25
 ---
-## تحديث عنوان موقع مشروع بياني
 
-![تحديث]({{ site.baseurl }}/images/banner_v1.jpg "Photography credits : Patrick Perkin. https://unsplash.com/photos/assorted-notepads-ETRPjvb0KM0")
+![تحديث]({{ site.baseurl }}/images/update1.jpg "Photography credits : Patrick Perkin. https://unsplash.com/photos/assorted-notepads-ETRPjvb0KM0")
 
 
 مشروع بياني ينتقل إلى عنوان جديد. إذا كنت قد زرت الموقع سابقًا عبر الرابط القديم أو شاهدت منشور إكس (تويتر سابقا) الموجود أسفله، فإنك مدعوٌّ الآن لزيارة موقع بياني الجديد على الرابط التالي: [bayanyproject.github.io](https://bayanyproject.github.io/).
@@ -23,6 +22,7 @@ date: 2024-08-25
 مع الانتقال إلى العنوان الجديد، نحن نعمل أيضًا على إدخال تحسينات إضافية على الموقع، بما في ذلك تنظيم أفضل للمحتوى وتصميم أكثر توافقًا مع مختلف الأجهزة. هذه التغييرات تهدف إلى جعل تصفح الموقع أكثر سلاسة ومتعة. كذلك ، العمل جار لتحسين ظروف المساهمة الجماعية في المشروع. يمكنكم في هذا الصدد تصفح [صفحة المساهمة](https://github.com/bayanyproject/bayanyproject.github.io/blob/main/CONTRIBUTING.md) [للمستودع الرئيسي للمشروع](https://github.com/bayanyproject/bayanyproject.github.io) و كذا صفحة [اقرأني](https://github.com/bayanyproject/bayanyproject.github.io/blob/main/README.md) و كلاهما محرر باللغتين العربية و الانجليزية.
 
 أما هاته المدونة فكونها شخصية ، فستبقى على عنوانها المعهود : [yoos-dz.github.io/bayanyblog/](https://yoos-dz.github.io/bayanyblog/)
+
 ---
 
 **دمتم بخير ونتطلع لرؤيتكم في موقعنا الجديد!**
