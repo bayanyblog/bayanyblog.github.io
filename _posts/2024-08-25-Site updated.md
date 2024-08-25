@@ -1,8 +1,10 @@
 ---
 layout: post
-title: تحديث:  عنوان موقع مشروع بياني الجديد
+title:  عنوان موقع مشروع بياني الجديد
 date: 2024-08-25
 ---
+
+### تحديث
 
 ![تحديث]({{ site.baseurl }}/images/update1.jpg "Photography credits : Patrick Perkin. https://unsplash.com/photos/assorted-notepads-ETRPjvb0KM0")
 
