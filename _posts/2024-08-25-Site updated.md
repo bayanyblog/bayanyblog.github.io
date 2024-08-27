@@ -4,12 +4,7 @@ title:  عنوان موقع مشروع بياني الجديد
 date: 2024-08-25
 ---
 
-### تحديث
-
-![تحديث]({{ site.baseurl }}/images/update1.jpg "Photography credits : Patrick Perkin. https://unsplash.com/photos/assorted-notepads-ETRPjvb0KM0")
-
-
-مشروع بياني ينتقل إلى عنوان جديد. إذا كنت قد زرت الموقع سابقًا عبر الرابط القديم أو شاهدت منشور إكس (تويتر سابقا) الموجود أسفله، فإنك مدعوٌّ الآن لزيارة موقع بياني الجديد على الرابط التالي: [bayanyproject.github.io](https://bayanyproject.github.io/).
+![تحديث]({{ site.baseurl }}/images/update1.jpg "Photography credits : Patrick Perkin. https://unsplash.com/photos/assorted-notepads-ETRPjvb0KM0") مشروع بياني ينتقل إلى عنوان جديد. إذا كنت قد زرت الموقع سابقًا عبر الرابط القديم أو شاهدت منشور إكس (تويتر سابقا) الموجود أسفله، فإنك مدعوٌّ الآن لزيارة موقع بياني الجديد على الرابط التالي: [bayanyproject.github.io](https://bayanyproject.github.io/).
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our Bayany project is now live! Check it out <a href="https://t.co/xyz123">https://t.co/xyz123</a></p>&mdash; YoosTech (@yoostech) <a href="https://twitter.com/yoostech/status/1826298016061374822">April 8, 2023</a></blockquote> 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
