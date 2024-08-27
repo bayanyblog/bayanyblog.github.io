@@ -8,11 +8,19 @@ layout: default
   </div> KEEP THIS FOR THE MAIN SITE ONLY. -->
     <article class="post">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <div class="entry">
-        {{ post.content }}
+<!--      <div class="entry">
+        {{ post.content }} UNDISPLAYED IN ORDER TO PUT A CODE OF  {{post.excrept}} WITH THE EXPRESSION: أكمل القراءة-->
       <!--
       <div class="entry">
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.content }}-->
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">اكمل القراءة</a>
+    </article>
+  {% endfor %}
+</div>
       </div>
     </article>
   {% endfor %}
