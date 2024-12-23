@@ -12,18 +12,18 @@ date: 2024-12-23
 
 تطور البرمجيات المفتوحة المصدر فتح الباب أمام تطور التراخيص القانونية التي تسمح بتناول، تبادل توزيع الأكواد بشكل حر إلى أقصى حد وهي في هذا عدة أنواع:
 
-1. منظومة الحقوق المرفوعة أو [Copyleft](https://en.wikipedia.org/w/index.php?title=Copyleft&oldid=1263388666)  
-2. الرخصة العمومية الشاملة [General Public License (GPL)](https://en.wikipedia.org/w/index.php?title=GNU_General_Public_License&oldid=1263578011)  
-3. المشاع الإبداعي أو [Creative Commons](https://creativecommons.org/)  
-4. [رخصة إم آي تي](https://ar.wikipedia.org/w/index.php?title=%D8%B1%D8%AE%D8%B5%D8%A9_%D8%A5%D9%85_%D8%A2%D9%8A_%D8%AA%D9%8A&oldid=69024333)  
+1. منظومة الحقوق المرفوعة أو [Copyleft](https://en.wikipedia.org/w/index.php?title=Copyleft&oldid=1263388666)
+2. الرخصة العمومية الشاملة [General Public License (GPL)](https://en.wikipedia.org/w/index.php?title=GNU_General_Public_License&oldid=1263578011)
+3. المشاع الإبداعي أو [Creative Commons](https://creativecommons.org/)
+4. [رخصة إم آي تي](https://ar.wikipedia.org/w/index.php?title=%D8%B1%D8%AE%D8%B5%D8%A9_%D8%A5%D9%85_%D8%A2%D9%8A_%D8%AA%D9%8A&oldid=69024333)
 
 ## وصلات ومراجع
 
-- [رخصة إم آي تي. (2024). في ويكيبيديا.](https://ar.wikipedia.org/w/index.php?title=%D8%B1%D8%AE%D8%B5%D8%A9_%D8%A5%D9%85_%D8%A2%D9%8A_%D8%AA%D9%8A&oldid=69024333)  
-- [Copyleft. (2024). في Wikipedia.](https://en.wikipedia.org/w/index.php?title=Copyleft&oldid=1263388666)  
-- [Creative Commons. (د.ت). Creative Commons.](https://creativecommons.org/)  
-- [GNU General Public License. (2024). في Wikipedia.](https://en.wikipedia.org/w/index.php?title=GNU_General_Public_License&oldid=1263578011)  
-- [Open-source software movement. (2024). في Wikipedia.](https://en.wikipedia.org/w/index.php?title=Open-source_software_movement&oldid=1262044047)  
-- [Richard Stallman’s Personal Page. (د.ت).](https://stallman.org/)  
-- [Why Open Source Misses the Point of Free Software - GNU Project - Free Software Foundation. (د.ت).](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html)  
+- [رخصة إم آي تي. (2024). في ويكيبيديا.](https://ar.wikipedia.org/w/index.php?title=%D8%B1%D8%AE%D8%B5%D8%A9_%D8%A5%D9%85_%D8%A2%D9%8A_%D8%AA%D9%8A&oldid=69024333)
+- [Copyleft. (2024). في Wikipedia.](https://en.wikipedia.org/w/index.php?title=Copyleft&oldid=1263388666)
+- [Creative Commons. (د.ت). Creative Commons.](https://creativecommons.org/)
+- [GNU General Public License. (2024). في Wikipedia.](https://en.wikipedia.org/w/index.php?title=GNU_General_Public_License&oldid=1263578011)
+- [Open-source software movement. (2024). في Wikipedia.](https://en.wikipedia.org/w/index.php?title=Open-source_software_movement&oldid=1262044047)
+- [Richard Stallman’s Personal Page. (د.ت).](https://stallman.org/)
+- [Why Open Source Misses the Point of Free Software - GNU Project - Free Software Foundation. (د.ت).](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html)
 
